@@ -58,7 +58,8 @@ export const ascorbicAcid: Ingredient = {
     productTypes: ["化粧水", "美容液", "クリーム"],
   },
   media: {
-    alt: "アスコルビン酸の構造式",
+    structureImage: "/structures/ascorbic-acid.svg",
+    structureImageAlt: "アスコルビン酸の化学構造式",
   },
   references: [
     {

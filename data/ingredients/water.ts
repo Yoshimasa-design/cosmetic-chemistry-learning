@@ -57,7 +57,8 @@ export const water: Ingredient = {
     productTypes: ["化粧水", "乳液", "美容液", "クリーム", "洗浄料"],
   },
   media: {
-    alt: "水分子の構造式",
+    structureImage: "/structures/water.svg",
+    structureImageAlt: "水分子の化学構造式",
   },
   references: [
     {

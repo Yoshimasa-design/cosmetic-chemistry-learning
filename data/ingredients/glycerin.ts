@@ -57,7 +57,8 @@ export const glycerin: Ingredient = {
     productTypes: ["化粧水", "乳液", "美容液", "クリーム", "洗浄料"],
   },
   media: {
-    alt: "グリセリンの構造式",
+    structureImage: "/structures/glycerin.svg",
+    structureImageAlt: "グリセリンの化学構造式",
   },
   references: [
     {
