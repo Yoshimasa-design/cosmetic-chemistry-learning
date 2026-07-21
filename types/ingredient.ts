@@ -72,8 +72,9 @@ export interface IngredientRelations {
 
 export interface IngredientMedia {
   structureImage?: string;
+  structureImageAlt?: string;
   thumbnail?: string;
-  alt: string;
+  alt?: string;
 }
 
 export interface IngredientReference {
