@@ -176,3 +176,139 @@ a {
     flex-direction: column;
   }
 }
+
+/* Ingredient detail page */
+
+.ingredient-detail {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 32px 0 64px;
+}
+
+.ingredient-detail > a {
+  display: inline-flex;
+  margin-bottom: 24px;
+  color: #475569;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.ingredient-detail > a:hover {
+  text-decoration: underline;
+}
+
+.ingredient-detail header {
+  margin-bottom: 24px;
+  padding: 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 6%);
+}
+
+.ingredient-detail header p {
+  margin: 0 0 8px;
+  color: #64748b;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.ingredient-detail header h1 {
+  margin: 0;
+  color: #0f172a;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.2;
+}
+
+.ingredient-detail section {
+  margin-top: 24px;
+  padding: 28px 32px;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 5%);
+}
+
+.ingredient-detail section h2 {
+  margin: 0 0 18px;
+  color: #0f172a;
+  font-size: 1.35rem;
+}
+
+.ingredient-detail section p {
+  margin: 0;
+  color: #334155;
+  line-height: 1.8;
+}
+
+.ingredient-detail table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ingredient-detail th,
+.ingredient-detail td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ingredient-detail tr:last-child th,
+.ingredient-detail tr:last-child td {
+  border-bottom: none;
+}
+
+.ingredient-detail th {
+  width: 32%;
+  color: #475569;
+  font-weight: 600;
+}
+
+.ingredient-detail td {
+  color: #0f172a;
+}
+
+.ingredient-detail ul {
+  margin: 0;
+  padding-left: 1.4rem;
+}
+
+.ingredient-detail li {
+  margin-bottom: 10px;
+  color: #334155;
+  line-height: 1.7;
+}
+
+.ingredient-detail li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .ingredient-detail {
+    padding-top: 20px;
+  }
+
+  .ingredient-detail header,
+  .ingredient-detail section {
+    padding: 22px 20px;
+    border-radius: 16px;
+  }
+
+  .ingredient-detail th,
+  .ingredient-detail td {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  .ingredient-detail th {
+    padding-top: 16px;
+    border-bottom: none;
+  }
+
+  .ingredient-detail td {
+    padding-bottom: 16px;
+  }
+}
